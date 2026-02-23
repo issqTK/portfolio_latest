@@ -22,13 +22,12 @@ $.when( $.ready ).then(function() {
         
         if(nav.hasClass('opened')) {
             nav.slideDown( "slow");
-            $('#main').fadeOut('fast');
             $('#close').slideDown('fast');    
             $('#open').slideUp('fast');
         }
         else {
             nav.fadeOut('fast');
-            $('#main').fadeIn('slow');
+            
             $('#close').slideUp('fast');
             $('#open').slideDown('fast');  
         }

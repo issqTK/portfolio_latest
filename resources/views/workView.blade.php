@@ -46,9 +46,25 @@ else {
             </div>
 
             <div>
-                <p> {{ $description }} </p>
+                <p class="light-bg-nav" style="white-space: pre-line;"> {{ $description }} </p>
             </div>
         </div>
+
+        @if($work->name == 'SouqAlFellah')
+        <div class="prixa content">
+            <div >
+                <div>
+                    <h3> {{ __("SouqAlFellah demo") }} </h3>
+
+                    <hr>
+
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/g37wnP2TvZQ?si=gWIA1YAUL46TpRhu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <hr>
+            </div>
+        </div>
+        @endif
 
         @if($work->name == 'Sam')
         <div class="sam content">

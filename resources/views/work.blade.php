@@ -20,9 +20,9 @@
                         {{ $work->name }}
                     </span>
 
-                    @if($work->name == 'Sam')
+                   {{--  @if($work->name == 'Sam')
                         <span id="new" class="darkBG darkColor"> {{ __("New") }} </span>
-                    @endif
+                    @endif --}}
 
                     @php 
                     {{

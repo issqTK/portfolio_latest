@@ -33,11 +33,11 @@ It demonstrates my ability to create modern, responsive, and interactive web app
 
 ## 🖥️ Screenshots
 
-![Projects Section](/images/work/sam/2.png)  
-![Home Page](/images/work/sam/4.png)  
-![Contact Form](/images/work/sam/9.png)
-![Work view](/images/work/sam/10.png)
-![About Page](/images/work/sam/8.png)
+![Projects Section](screenshots/2.png)  
+![Home Page](screenshots/4.png)  
+![Contact Form](screenshots/9.png)
+![Work view](screenshots/10.png)
+![About Page](screenshots/8.png)
 
 ---
 

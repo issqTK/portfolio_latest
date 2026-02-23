@@ -33,9 +33,11 @@ It demonstrates my ability to create modern, responsive, and interactive web app
 
 ## 🖥️ Screenshots
 
-![Home Page](screenshots/home.png)  
-![Projects Section](screenshots/projects.png)  
-![Contact Form](screenshots/contact.png)
+![Projects Section](/images/work/sam/2.png)  
+![Home Page](/images/work/sam/4.png)  
+![Contact Form](/images/work/sam/9.png)
+![Work view](/images/work/sam/10.png)
+![About Page](/images/work/sam/8.png)
 
 ---
 
@@ -44,4 +46,4 @@ It demonstrates my ability to create modern, responsive, and interactive web app
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/issqtk/portfolio.git
+git clone https://github.com/issqTK/portfolio_latest.git

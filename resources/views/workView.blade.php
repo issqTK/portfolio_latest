@@ -63,6 +63,8 @@ else {
 
                 <hr>
             </div>
+
+            <a href="https://github.com/issqTK/sooq-alfellah" target="_blank" class="visite">{{ __("View on GitHub") }}</a>
         </div>
         @endif
 
@@ -323,7 +325,7 @@ else {
                 <hr>
             </div>
 
-            <a href="https://lenergia.fr/" target="_blank" class="visite">{{ __("Visit") }} {{ $work->name }}</a>
+            <a href="https://github.com/issqTK/lenergia" target="_blank" class="visite">{{ __("View on GitHub") }}</a>
         </div>
         @endif
 
@@ -341,6 +343,8 @@ else {
 
                 <hr>
             </div>
+
+            <a href="https://github.com/issqTK/Prixa" target="_blank" class="visite">{{ __("View on GitHub") }}</a>
         </div>
         @endif
 
@@ -403,55 +407,6 @@ else {
         </div>
         @endif
        
-        @if($work->name == 'Formy')
-        <div class="formy content">
-            <div class="page">
-                                <div>
-                                    <h3> {{ __("Welcome Page") }} </h3>
-
-                    <hr>
-
-                                </div>
-
-                <img src="/images/work/formy/formy-1.png" >
-
-                <hr>
-            </div>
-
-            <div class="page">
-                <hr>
-
-                <img src="/images/work/formy/formy-2.png" >
-
-                <hr>
-            </div>
-
-            <div class="page">
-                <hr>
-
-                <img src="/images/work/formy/formy-3.png" >
-
-                <hr>
-            </div>
-
-            <div class="page">
-                <hr>
-
-                <img src="/images/work/formy/formy-4.png" >
-
-                <hr>
-            </div>
-
-            <div class="page">
-                <hr>
-
-                <img src="/images/work/formy/formy-5.png" >
-
-                <hr>
-            </div>
-        </div>
-        @endif
-
         <div class="pre-next">
             @if( !is_int($previous) )
                 <a class="right" href="{{ route('work.view', $previous->slug) }}">

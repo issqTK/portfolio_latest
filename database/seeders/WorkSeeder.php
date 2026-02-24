@@ -16,7 +16,7 @@ class WorkSeeder extends Seeder
         Work::create([
             'name' => 'SouqAlFellah',
             'label' => "en=Fresh and Organic Products Market|fr=Marché de produits frais et bio",
-            'preview' => 'souqalfellah.png',
+            'preview' => 'Biomarket.png',
             'slug' => 'souqalfellah',
             'category' => "en=Online Marketplace|fr=Marketplace en ligne",
             'client' => 'Upwork',

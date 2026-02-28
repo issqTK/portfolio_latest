@@ -17,7 +17,7 @@
             </p>
 
             <div>
-                <a target="_blank" href="<?= App::isLocale('en') ? '/pdf/resume.pdf' : '/pdf/cv.pdf' ?>">
+                <a target="_blank" href="/pdf/resume.pdf">
                     <span>
                         <ion-icon name="arrow-down-outline"></ion-icon> 
                         {{ __("Resume") }}
